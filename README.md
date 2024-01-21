@@ -10,7 +10,12 @@ Pour le chargement des données, la construction du modèle, son entraînement, 
 
 Nous avons également essayé d'effectuer du transfert learning en utilisant le modèle pré-entraîné MobileNetV2. Il est plus léger que VGG16, mais nous devons tout de même ruser pour lui fournir des images en 3 canaux alors que nous n'en avons qu'un seul. Au final le résultat satisfaisant, l'accurary est inférieure à celle obtenue avec le CNN.
 
-## Prérerquis
+## Prérequis
 
 Pour que le notebook fonctionne correctement, il faut que les librairies à importer soient installées. Il faut également se placer au même niveau que le dossier 'data' contenant le dossier 'notMNIST_small' qui contient les images à charger réparties en 10 dossiers (un par classe) portant le nom de la lettre correspondante.
 Si vous souhaitez tenir compte des données augmentées (générées avec le script 'gan_data_augmentation.py'), il faut vous assurer que le dossier 'data' contient également le dossier 'notMNIST_small_augmented' qui contient les images générées réparties en 10 dossiers (un par classe) portant le nom de la lettre correspondante.
+
+## Auteurs
+
+- [Maxime Dupont](https://github.com/maxime-dupont01)
+- [Adrien Desbrosses](https://github.com/bvzopa)
